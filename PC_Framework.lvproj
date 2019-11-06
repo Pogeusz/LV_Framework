@@ -18,15 +18,17 @@
 		</Item>
 		<Item Name="SubModules" Type="Folder">
 			<Item Name="Logs" Type="Folder">
-				<Item Name="LogsAbstract.lvclass" Type="LVClass" URL="../SubModules/LogsAbstract/LogsAbstract.lvclass"/>
-				<Item Name="EventLog.lvclass" Type="LVClass" URL="../SubModules/EventLog/EventLog.lvclass"/>
+				<Item Name="LogsAbstract.lvlib" Type="Library" URL="../SubModules/LogsAbstract/LogsAbstract.lvlib"/>
+				<Item Name="EventLog.lvlib" Type="Library" URL="../SubModules/EventLog/EventLog.lvlib"/>
+				<Item Name="ErrorLog.lvlib" Type="Library" URL="../ErrorLog/ErrorLog.lvlib"/>
 			</Item>
-		</Item>
-		<Item Name="Lib" Type="Folder" URL="../Lib">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Events.lvclass" Type="LVClass" URL="../Classes/Events/Events.lvclass"/>
+			<Item Name="Error.lvclass" Type="LVClass" URL="../Classes/Error/Error.lvclass"/>
+		</Item>
+		<Item Name="Lib" Type="Folder" URL="../Lib">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -39,12 +41,6 @@
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
-				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="Assert Array Dimension Count.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Array Dimension Count.vim"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>

@@ -1,2 +1,6 @@
 Date:;Time:;Description;Actual State;Next State;Comment
 30.10.2019r.;15:06:51;Start Application;Init;Safe State;
+31.10.2019r.;09:58:56;Start Application;Init;Safe State;
+31.10.2019r.;09:58:57;Stop Application;Safe State;Closing;
+31.10.2019r.;10:00:45;Start Application;Init;Safe State;
+31.10.2019r.;10:00:51;Stop Application;Safe State;Closing;
