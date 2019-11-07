@@ -20,7 +20,7 @@
 			<Item Name="Logs" Type="Folder">
 				<Item Name="LogsAbstract.lvlib" Type="Library" URL="../SubModules/LogsAbstract/LogsAbstract.lvlib"/>
 				<Item Name="EventLog.lvlib" Type="Library" URL="../SubModules/EventLog/EventLog.lvlib"/>
-				<Item Name="ErrorLog.lvlib" Type="Library" URL="../ErrorLog/ErrorLog.lvlib"/>
+				<Item Name="ErrorLog.lvlib" Type="Library" URL="../SubModules/ErrorLog/ErrorLog.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Classes" Type="Folder">
@@ -48,6 +48,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Create File and Containing Folders.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create File and Containing Folders.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
@@ -60,6 +61,7 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Enqueue AppEvent Element.vi" Type="VI" URL="../SubModules/EventLog/sVI/Enqueue AppEvent Element.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
