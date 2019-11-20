@@ -6,5 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder"/>
-	<Item Name="ModuleAbstract.lvclass" Type="LVClass" URL="../ModuleAbstract/ModuleAbstract.lvclass"/>
+	<Item Name="ModuleAbstract.lvclass" Type="LVClass" URL="../ModuleAbstract.lvclass"/>
 </Library>
