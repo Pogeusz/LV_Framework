@@ -9,3 +9,8 @@ Date;Time;Description;Classification;Origin;Comment
 19.11.2019r.;15:32:27;Application Closed;System Log;Core;
 20.11.2019r.;09:53:05;Start Application;System Log;Core;
 20.11.2019r.;09:53:06;Application Closed;System Log;Core;
+21.11.2019r.;08:04:22;Start Application;System Log;EventLog -> Core;
+21.11.2019r.;08:04:23;Application Closed;System Log;EventLog -> Core;
+27.11.2019r.;16:21:39;Start Application;System Log;EventLog -> Core;
+28.11.2019r.;08:28:43;Start Application;System Log;EventLog -> Core;
+28.11.2019r.;08:28:46;Application Closed;System Log;EventLog -> Core;
