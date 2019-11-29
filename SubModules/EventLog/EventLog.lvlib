@@ -7,6 +7,7 @@
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Enqueue Logs Element Msg.lvclass" Type="LVClass" URL="../../EventLog Messages/Enqueue Logs Element Msg/Enqueue Logs Element Msg.lvclass"/>
+		<Item Name="Obtain and Save Msg.lvclass" Type="LVClass" URL="../../EventLog Messages/Obtain and Save Msg/Obtain and Save Msg.lvclass"/>
 	</Item>
 	<Item Name="EventLog.lvclass" Type="LVClass" URL="../EventLog.lvclass"/>
 </Library>
