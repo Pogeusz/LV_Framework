@@ -5,6 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Enqueue Logs Element Msg.lvclass" Type="LVClass" URL="../../ErrorLog Messages/Enqueue Logs Element Msg/Enqueue Logs Element Msg.lvclass"/>
+		<Item Name="Obtain and Save Msg.lvclass" Type="LVClass" URL="../../ErrorLog Messages/Obtain and Save Msg/Obtain and Save Msg.lvclass"/>
+	</Item>
 	<Item Name="ErrorLog.lvclass" Type="LVClass" URL="../ErrorLog.lvclass"/>
 </Library>

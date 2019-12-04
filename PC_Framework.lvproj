@@ -47,10 +47,11 @@
 						<Item Name="Compare Cluster (without default value).vim" Type="VI" URL="../Utilities/VIs/Data/Compare Cluster (without default value).vim"/>
 					</Item>
 					<Item Name="String" Type="Folder">
-						<Item Name="Remove String Lines from Multiline String.vi" Type="VI" URL="../Utilities/VIs/Data/String/Remove String Lines from Multiline String.vi"/>
+						<Item Name="Remove String Lines from Multiline String.vim" Type="VI" URL="../Utilities/VIs/Data/String/Remove String Lines from Multiline String.vim"/>
 						<Item Name="Split to Multiline String.vi" Type="VI" URL="../Utilities/VIs/Data/String/Split to Multiline String.vi"/>
 						<Item Name="Search Char.vi" Type="VI" URL="../Utilities/VIs/Data/String/Search Char.vi"/>
 						<Item Name="Repeat String.vi" Type="VI" URL="../Utilities/VIs/Data/String/Repeat String.vi"/>
+						<Item Name="Search Reg Exp in Multiline String.vi" Type="VI" URL="../Utilities/VIs/Data/String/Search Reg Exp in Multiline String.vi"/>
 					</Item>
 				</Item>
 			</Item>
