@@ -27,9 +27,14 @@
 			</Item>
 		</Item>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="EventsAbstract.lvclass" Type="LVClass" URL="../Classes/EventsAbstract/EventsAbstract.lvclass"/>
-			<Item Name="Event.lvclass" Type="LVClass" URL="../Classes/Event/Event.lvclass"/>
-			<Item Name="Error.lvclass" Type="LVClass" URL="../Classes/Error/Error.lvclass"/>
+			<Item Name="Events" Type="Folder">
+				<Item Name="EventsAbstract.lvclass" Type="LVClass" URL="../Classes/EventsAbstract/EventsAbstract.lvclass"/>
+				<Item Name="Event.lvclass" Type="LVClass" URL="../Classes/Event/Event.lvclass"/>
+				<Item Name="Error.lvclass" Type="LVClass" URL="../Classes/Error/Error.lvclass"/>
+			</Item>
+			<Item Name="States" Type="Folder">
+				<Item Name="MainStates.lvclass" Type="LVClass" URL="../Classes/States/MainStates/MainStates.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="TypeDef" Type="Folder"/>
