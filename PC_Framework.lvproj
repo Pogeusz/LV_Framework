@@ -36,6 +36,9 @@
 				<Item Name="MainStates.lvclass" Type="LVClass" URL="../Classes/States/MainStates/MainStates.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="TypeDef" Type="Folder">
+			<Item Name="MainState.ctl" Type="VI" URL="../Classes/States/MainStates/TypeDef/MainState.ctl"/>
+		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="TypeDef" Type="Folder"/>
 			<Item Name="VIs" Type="Folder">
