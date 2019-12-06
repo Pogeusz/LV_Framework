@@ -62,6 +62,9 @@
 						<Item Name="Search Reg Exp in Multiline String.vi" Type="VI" URL="../Utilities/VIs/Data/String/Search Reg Exp in Multiline String.vi"/>
 					</Item>
 				</Item>
+				<Item Name="Other" Type="Folder">
+					<Item Name="CloseApp.vi" Type="VI" URL="../Utilities/VIs/Other/CloseApp.vi"/>
+				</Item>
 			</Item>
 			<Item Name="LV_Lib" Type="Folder">
 				<Item Name="Message Queue" Type="Folder">
@@ -158,6 +161,85 @@
 			</Item>
 			<Item Name="Send ActorsRef Container to All Actors.vi" Type="VI" URL="../Modules/Core/sVI/Send ActorsRef Container to All Actors.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Framework_TEST" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{B2B4C62B-BE80-4FB0-A4C4-F6AF9248AB09}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{A4531280-1AB4-4C66-BAFF-ADB5A37BFF6C}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{004DEFBA-5ACD-4D07-96B0-E43372C76D77}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Framework_TEST</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../03_Builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B949960D-151F-4DC6-823F-3CD71E9FBB75}</Property>
+				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
+				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Framework_TEST.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../03_Builds/Framework_TEST.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../03_Builds/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{52033837-EFF5-445B-8477-56EB3FB52785}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Containers</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Modules</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SubModules</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Classes</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/TypeDef</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Utilities</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="TgtF_companyName" Type="Str">AMS Sp. z o.o.</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Framework_TEST</Property>
+				<Property Name="TgtF_internalName" Type="Str">Framework_TEST</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 AMS Sp. z o.o.</Property>
+				<Property Name="TgtF_productName" Type="Str">Framework_TEST</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{EE699A53-082C-4E53-B5A2-E53EA5BF3BC3}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Framework_TEST.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
