@@ -1,1 +1,6 @@
-Date;Time;Description;Classification;Source;Comment
+Date;Time;Error Code;Description;Classification;Source;Comment
+09.12.2019r.;14:24:10;5002;The event cannot be logged. Check if a log file exists.;System Error;Core.lvlib -> Core.lvclass -> Actor Core.vi -> 5880001;
+09.12.2019r.;14:24:10;5002;The event cannot be logged. Check if a log file exists.;System Error;Core.lvlib -> Core.lvclass -> Actor Core.vi -> 5880001;
+09.12.2019r.;14:24:13;5000;One or more modules didn't start correctly. Restart computer and run application once again.;System Error;Core.lvlib -> Core.lvclass -> Actor Core.vi -> 5880001;
+09.12.2019r.;14:24:13;5000;One or more modules didn't start correctly. Restart computer and run application once again.;System Error;Core.lvlib -> Core.lvclass -> Actor Core.vi -> 5880001;
+09.12.2019r.;14:24:15;5003;At least one module did not respond to the reference query. Check that all necessary applications are running and all license and hardware keys are attached. If so, contact the supplier.;System Error;Core.lvlib -> Core.lvclass -> Actor Core.vi -> 5880001;
